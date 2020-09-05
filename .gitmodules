@@ -1,0 +1,3 @@
+[submodule "site/themes/blank"]
+	path = site/themes/blank
+	url = https://github.com/vimux/blank
