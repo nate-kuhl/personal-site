@@ -1,10 +1,10 @@
 variable "domain_name" {
-  default = "static-example.nicholasarmstrong.com"
+  default = "nate-kuhl.com"
 }
 variable "logs_bucket" {
-  default = "example-static-site-logs"
+  default = "personal-static-site-logs"
 }
 
 variable "publish_user" {
-  default = "StaticExamplePublish"
+  default = "StaticPublish"
 }

@@ -1,15 +1,15 @@
 terraform {
   backend "s3" {
     # Replace with your state bucket name and region
-    bucket = "example-static-site-state"
-    region = "ca-central-1"
+    bucket = "personal-static-site-state"
+    region = "us-east-1"
     key    = "global/s3/terraform.tfstate"
   }
 }
 
 # Default region
 provider "aws" {
-  region  = "ca-central-1"
+  region  = "us-east-1"
   version = "~> 2.59"
 }
 

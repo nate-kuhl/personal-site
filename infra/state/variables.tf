@@ -1,3 +1,3 @@
 variable "state_bucket" {
-  default = "example-static-site-state"
+  default = "personal-static-site-state"
 }
